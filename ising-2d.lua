@@ -78,7 +78,7 @@ for t=1,tf do
   print("  ")
   simulacion(mt, N, T)
   printmatrix(mt, N)
-  --test(mt)
+ 
   print("Presiona ENTER para continuar la simulación")
   local x = io.read()
 end
